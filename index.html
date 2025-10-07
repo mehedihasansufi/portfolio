@@ -4,7 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="coding, html , css , javascript,java,android development,mehedi hasan">
+    <meta name="description" content="mehedi hasan learning language">
+    <meta name="author" content="Mehedi hasan">
     <title>Mehedi Hasan</title>
+
+    <!-- Font-awesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css style file added -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,71 +32,200 @@
     <!-- header part -->
     <header>
         <h1>Mehedi Hasan</h1>
-        <p>Student of BUBT, Studied in cse</p>
+        <p>Student of BUBT, Studied in Computer Science & Engineering</p>
         <hr />
     </header>
-            <!-- About part -->
-    <section>
-        <h2>About me</h2>
-        <p><Strong>Expericene : </Strong> No expericnce in computer science
-        </p>
-        <p><Strong>Education :</Strong> Undergraduation Computer Science Student in BUBT
-        </p>
-        <a href="https://www.google.com">google</a>
-    </section>
-            <!-- Skills part -->
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Html</li>
-            <li>css</li>
-            <li>MongoDB</li>
-            <li>
 
-                javascript
+    <!-- About part -->
+    <main>
 
-                 <ol>
-                <li>Express.js</li>
-                <li>Node.js</li>
-                <li>React.js</li>
-            </ol>
-            </li>
-           
-        </ul>
-        <h3>order list here</h3>
-        <ol>
-            <li>mehedi</li>
-            <li>Rakib</li>
-            <li>sazzad</li>
-            <li>Shariar</li>
-        </ol>
+        <section>
+            <h2>About me</h2>
+            <p><Strong>Expericene : </Strong> No expericnce in computer science
+            </p>
+            <p><Strong>Education :</Strong> Undergraduation Computer Science Student in BUBT
+            </p>
+        </section>
 
-        <dl>
-            <dt><strong>Html</strong></dt>
-            <dd>Hyper Text Markup Language</dd>
+        <!-- Skills part -->
 
-        </dl>
-    </section>
-        <!-- table part -->
-    <table border="1" cellpaddint="15" cellspacing="0" style="text-align: center;">
-       <thead>
-        <tr>
-            <th>Technology</th>
-            <th>Subject</th>
-        </tr>
-       </thead>
-       <tbody>
-        <tr>
-            <td >html</td>
-            <td>Computer Science</td>
-        </tr>
-       </tbody>
-    </table>
+        <div>
 
-        <!-- Footer part here -->
+            <!-- Skills  -->
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Html</li>
+                    <li>css</li>
+                    <li>MongoDB</li>
+                    <li>
+
+                        javascript
+
+                        <ol>
+                            <li>Express.js</li>
+                            <li>Node.js</li>
+                            <li>React.js</li>
+                        </ol>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- project List -->
+
+            <section>
+
+                <h3>Project List</h3>
+                <ol>
+                    <li>Online Examination System</li>
+                    <li>Personal Portfolio</li>
+                    <li>Netflix clone</li>
+                    <li>Amazon Clone</li>
+                </ol>
+            </section>
+
+            <!-- progress -->
+
+            <section>
+
+                <div>
+                    <label for="Personal-portfolio-progress">Personal Portfolio</label>
+                    <progress id="Personal-portfolio-progress" value="20" max="100"></progress>
+                </div>
+
+                <div>
+                    <label for="Netflix">Netflix</label>
+                    <progress id="Netflix" value="0" max="100"></progress>
+                </div>
+
+                <div>
+                    <label for="Amazon">Amazon</label>
+                    <progress id="Amazon" value="0" max="100"></progress>
+                </div>
+
+            </section>
+
+
+            <!-- table part -->
+
+            <table border="1" cellpadding="15" cellspacing="0" ">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Html</td>
+                    <td rowspan=" 2">Beginner</td>
+                </tr>
+                <tr>
+                    <td>Css</td>
+
+                </tr>
+                <tr>
+                    <td>javascript</td>
+                    <td>Not Started</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+
+
+            <!-- Defination Description Table -->
+            <section>
+
+                <dl>
+                    <dt><strong>Html :</strong></dt>
+                    <dd>Hyper Text Markup Language</dd>
+
+                </dl>
+            </section>
+
+        </div>
+
+        <!-- Video -->
+
+        <section>
+            <video width="250" loop controls>
+                <source src="./Asset/video/Saiyaara.mp4" type="video/mp4">
+                Your browser don't support this content
+            </video>
+        </section>
+
+        <!-- Contract Section -->
+        <section>
+            <h2>Contract Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="gender">Gender : </label>
+                    <select name="gender" id="gender" required>
+                        <option value="">Select Your Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Sent message : </label>
+                    <textarea name="message" id="message" rows="7" cols="30"></textarea>
+                </div>
+                <button type="submit">submit</button>
+                <button type="reset">Clear</button>
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <!-- Footer part here -->
     <footer>
-        <a href="tel:01768449468">call me</a>
-        <a href="mailto:mehedihasan205324@gmail.com">Email me</a>
+        <div>
+            <p>copyright reserved &copy; Mehedi-Hasan 2025</p>
+            <p>Developed with &hearts;</p>
+
+        </div>
+        <div>
+            <a href="tel:01768449468">call me</a>
+            <a href="mailto:mehedihasan205324@gmail.com">Email me</a>
+        </div>
+        <div>
+            <h3>Follow me </h3>
+            <ul>
+
+                <li><a href="https://www.facebook.com/share/1BSNMLkS5Q/?mibextid=wwXIfr" target="_blank"> <i
+                            class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+
+                <li><a href="https://www.instagram.com/mehedi_hasan_lipon/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i>Instagram</a></li>
+                <li><a href="https://github.com/mehedihasansufi" target="_blank"><i
+                            class="fa-brands fa-github"></i>Github</a></li>
+
+                <!-- Not Available now -->
+
+                <!-- <li><a href="W" target="_blank"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-discord"></i>Discord</a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i>Twitter</a></li> -->
+            </ul>
+
+        </div>
+
+        <div class="map">
+
+        </div>
+
     </footer>
 </body>
 
